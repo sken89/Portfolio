@@ -1,0 +1,106 @@
+body {
+	margin: 0;
+	font-family: "Ubuntu", "sans-serif";
+	color: #295d72;
+}
+
+header{
+	background-color: #295d72;
+	height: 60px;
+	width: auto;
+}
+
+
+a{
+	text-decoration: none;
+}
+
+h1{
+	margin: 80px 0 40px 100px;
+/* 	margin-left: auto;
+	margin-right: auto; */
+}
+
+.main{
+	background-color: #fffbf4;
+	height: 500px;
+	width: auto;
+}
+
+.logo{
+	color: #fff;
+	opacity: 0.7;
+	width: 100px;
+	height: 40px;
+	padding: 10px;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+	line-height: 40px;
+	font-weight: bold;
+}
+
+.logo:hover{
+	opacity: 1;
+}
+
+nav{
+	float: right;
+}
+
+.menu{
+	display: inline-block;
+	background-color: #ec652b;
+	opacity: 0.7;
+	border-radius: 4px;
+	color: #295d72;
+	width: 80px;
+	height: 30px;
+	padding: 10px 0;
+	margin: 10px 5px;
+	text-align: center;
+	line-height: 30px;
+	transition-property: color;
+	transition-duration: 1s;
+}
+
+.menu:hover{
+	opacity: 1;
+}
+
+.menu:active{
+	background-color: #295d72;
+	color: #fff;
+}
+
+.profile-list{
+	margin-left: 100px;
+}
+
+.profile-list dt{
+	font-weight: bold;
+	font-size: 20px;
+	display: inline-block;
+}
+
+.profile-list dd{
+	font-weight: bold;
+	font-size: 20px;
+	display: inline-block;
+}
+
+footer{
+	background-color: beige;
+	height: 100px;
+	width: auto;
+	line-height: 100px;
+}
+
+.copy{
+	padding: 10px;
+	text-align: center;
+}
+
+.name:hover{
+	color: #ec652b;
+}
